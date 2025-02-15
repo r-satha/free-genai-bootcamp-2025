@@ -43,4 +43,17 @@ The formatted output will generally contain three parts:
 - remember to consider beginner level sentence structures
 Here is an example of simple sentence structures.
 
-Student Input:Bears are at the door, did you leave the garbage out.
+- The bird is black. → [Subject] [Adjective].
+- The raven is in the garden. → [Location] [Subject] [Verb].
+- Put the garbage in the garden. → [Location] [Object] [Verb].
+- Did you see the raven? → [Subject] [Object] [Verb]?
+- This morning, I saw the raven. → [Time] [Subject] [Object] [Verb].
+- Are you going? → [Subject] [Verb]?
+- Did you eat the food? → [Object] [Verb]? -The raven is looking at the garden. → [Subject] [Verb] [Location].
+- The raven is in the garden, and it is looking at the flowers. → [Location] [Subject] [Verb], [Object] [Verb].
+- I saw the raven because it was loud. → [Time] [Subject] [Object] [Verb] [Reason] [Subject] [Verb].
+  
+### Clues and Considerations
+
+- try and provide a non-nested bulleted list
+- talk about the vocabulary but try to leave out the spanish words because the student can refer to the vocabulary table.
