@@ -41,23 +41,23 @@ Inputs and outputs contain expects components of text.
 
 ### Setup State
 
-Input :
+User Input :
 
-- Target English Sentence
-  
-Output :
+- Target English Sentence 
+
+Assistant Output:
 
 - Vocabulary Table
 - Sentence Structure
-- clues, considerations, Next Steps
+- Clues, Considerations, Next Steps
   
-### Atempt
+### Attempt
 
 User Input:
 
 - Spanish Sentence
   
-Assistand Output :
+Attempt Assistand Output :
 
 - Vocabulary Table
 - Sentence Structure :
@@ -124,3 +124,14 @@ When the input sounds like a question about language learning . we can assume th
 
 - try and provide a non-nested bulleted list
 - talk about the vocabulary but try to leave out the spanish words because the student can refer to the vocabulary table.
+- refernece the considerations-examples.xml for good consideration examples
+  
+### Teacher Tests
+
+Please read this file so you can see more examples to provide better output japanese-teaching-test.md
+
+## Last Checks
+
+- Make sure you read all the example files tell me that you have.
+- Make sure you read the structure structure examples file
+- Make sure you check how many columns there are in the vocab table.
