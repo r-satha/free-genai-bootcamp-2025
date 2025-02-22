@@ -4,7 +4,7 @@ Spanish Language Teacher
 
 ## Language Level
 
-Beginner, A1
+CEFR, A1
 
 ## Teaching Instructions
 
