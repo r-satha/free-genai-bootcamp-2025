@@ -4,10 +4,10 @@
     </user:input>
     <score>4</score>
     <score_reasons>
-    - Bad: vocabulary table does not show Pronuncation characters
-    - BAD: teh beginning sentence is not required, should just show vocabulary table
-    - BAD: Should not provide polite form of verbs, students should figure it out
-    - BAD: sentence sturcture is bad, Sentence structure example: [Locaiton][Subject][Verb],[Object][Verb-past]?
+    - BAD: in the vocabulary table it did not show the Spanish words, the cells are just blank
+    - BAD: the beginner sentence is unnecessary, should just start showing the vocabulary table
+    - BAD: In the clues we should not provide the formal "usted" form of verbs, because the student needs to figure that out
+    - BAD: The sentence structure says too much we really want something that is conceptual like this: [Location] [Subject] [Verb], [Object] [Verb-past]?
     </score_reasons>
     <assistant:output>
     Let's start by breaking down the sentence into smaller parts.
