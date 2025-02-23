@@ -1,0 +1,68 @@
+<example>
+    <user:input>
+        Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>4</score>
+    <score_reasons>
+    - BAD: in the vocabulary table it did not show the Spanish words, the cells are just blank
+    - BAD: the beginner sentence is unnecessary, should just start showing the vocabulary table
+    - BAD: In the clues we should not provide the formal "usted" form of verbs, because the student needs to figure that out
+    - BAD: The sentence structure says too much we really want something that is conceptual like this: [Location] [Subject] [Verb], [Object] [Verb-past]?
+    </score_reasons>
+    <assistant:output>
+    Let's start by breaking down the sentence into smaller parts.
+    Vocabulary Table
+ Spanish	Pronunciation (IPA)	English
+ oso	      /ˈo.so/	         bear
+ puerta  	  /ˈpwer.ta/   	     door
+ dejar	      /deˈxaɾ/	         to leave
+ basura    	  /baˈsu.ɾa/	     garbage
+ estar	      /esˈtaɾ/           to be
+ fuera	      /ˈfwe.ɾa/          outside
+
+Possible Sentence Structure
+        Verb: Exist/Be (Bears are at the door)
+        Verb: Leave/Throw (did you leave the garbage out?)
+        Sentence Structure:
+        [Subject] + [Exist/Be Verb] + [Location] + [Particle]
+        [Next Clause]: [Subject] + [Leave/Throw Verb] + [Object] + [Location] + [Particle]
+        Now, let's start with the first part of the sentence: "Bears are at the door."
+        Can you try to translate this phrase using the vocabulary table above? Think about the correct particles and verb conjugations to use.
+        Hint: What verb would you use to say "are" in Spanish?
+    </assistant:output>
+</example>
+<example>
+    <user:input>
+        Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>10/score>
+    <score_reasons>
+    - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediatly
+    - GOOD: Shows conceptual sentence strucutre
+    - GOOD: Clues don't give away any of the tense of conjugations
+    </score_reasons>
+    <assistant:output>
+     Cheatsheet:
+     Spanish	Pronunciation (IPA)	English
+     osos	    /ˈo.sos/	        bears	
+     puerta	    /ˈpwer.ta/	        door	
+     dejar	    /deˈxaɾ/	        to leave	
+     basura	    /baˈsu.ɾa/	        garbage	
+     estar	    /esˈtaɾ/	        to be	
+     fuera	    /ˈfwe.ɾa/	        outside	
+     Sentence structure:
+    [Location] [Subject] [Verb], [Object] [Verb-past]?
+
+    Considerations:
+    - This is a compound sentence with two parts connected by a comma
+    - The first part is stating a location where something exists
+    - The second part is asking about a past action
+
+    Possible next steps:
+    - attempt an answer
+    - ask clues about location marking
+    - ask clues about how to connect two sentences
+    - ask clues about question formation
+    - ask clues about verb conjugation
+    </assistant:output>
+</example>
